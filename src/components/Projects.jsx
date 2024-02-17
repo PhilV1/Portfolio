@@ -1,4 +1,5 @@
 import ProjectCard from '../utilities/ProjectCard'
+// import ToDoImg from '../images/ToDoList.JPG'
 
 function Projects() {
   return (
@@ -9,10 +10,10 @@ function Projects() {
       <h2 className="text-3xl font-bold pb-4">Recent Projects</h2>
       <div className="flex justify-center flex-wrap gap-2">
         <ProjectCard
-          link="https://www.w3schools.com/"
-          image="src/images/3D_HoverEffect.JPG"
+          link="https://simple-to-do-list-eta.vercel.app/"
+          image="src/images/ToDoList.JPG"
         >
-          Lorem, ipsum.
+          Simple ToDo List in ReactJS.
         </ProjectCard>
       </div>
     </div>

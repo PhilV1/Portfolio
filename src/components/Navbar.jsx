@@ -11,12 +11,15 @@ function Navbar() {
 
   return (
     <header className="text-white bg-orange-400 flex justify-between items-center px-8 py-2">
-      <h3 className="text-xl font-medium">Portfolio</h3>
+      <a href="/#projects">
+        {' '}
+        <h3 className="text-xl font-medium">PhilV1</h3>
+      </a>
       <nav
         className="bg-orange-400 flex gap-6 text-xl font-medium"
         ref={navRef}
       >
-        <a className="hover:underline" href="/#">
+        <a className="hover:underline" href="/#hero">
           Home
         </a>
         <a className="hover:underline" href="/#about" onClick={showNavbar}>
