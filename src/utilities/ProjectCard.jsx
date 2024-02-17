@@ -8,8 +8,8 @@ function ProjectCard({ children, link, image }) {
         alt="Project Image"
         className="h-full w-full rounded-md"
       />
-      <div className="flex flex-col items-center justify-end opacity-0 group-hover:opacity-100 pb-8 bg-orange-400 h-full w-full absolute  bottom-0 rounded-md duration-500">
-        <p className="pb-2">{children}</p>
+      <div className="flex flex-col items-center justify-end opacity-0 group-hover:opacity-100 ease-in-out pb-8 bg-orange-400 h-full w-full absolute bottom-0 rounded-md duration-500">
+        <p className="pb-2 font-medium">{children}</p>
         <a href={link} target="_blank" rel="noreferrer">
           <Button>View</Button>
         </a>

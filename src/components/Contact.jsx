@@ -16,16 +16,16 @@ function ContactForm() {
       <h2 className="text-3xl font-bold pb-4 text-center pt-14 px-8">
         Contact me
       </h2>
-      <div className="flex flex-col items-center bg-orange-400">
+      <div className="flex flex-col items-center bg-orange-400 text-white">
         <form
           id="contact"
-          className="flex flex-col items-center rounded-md p-4"
+          className="flex flex-col items-center rounded-md p-4 "
           onSubmit={handleSubmit}
         >
           <div className="flex flex-col items-center mb-4 ">
             <label className="mr-2 flex flex-col font-bold">Name</label>
             <input
-              className="rounded-md px-2"
+              className="rounded-md px-2 text-black"
               type="text"
               name="name"
               value={name}
@@ -35,7 +35,7 @@ function ContactForm() {
           <div className="flex flex-col items-center mb-4">
             <label className="mr-2 flex flex-col font-bold">Email</label>
             <input
-              className="rounded-md px-2"
+              className="rounded-md px-2 text-black"
               type="text"
               name="email"
               value={email}
@@ -45,7 +45,7 @@ function ContactForm() {
           <div className="flex flex-col items-center mb-4">
             <label className="flex font-bold">Message</label>
             <textarea
-              className="rounded-md p-2"
+              className="rounded-md p-2 text-black"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               cols="40"
