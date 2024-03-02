@@ -1,13 +1,13 @@
-import { useRef } from 'react'
-import { FaBars, FaTimes } from 'react-icons/fa'
-import './Navbar.css'
+import { useRef } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import './Navbar.css';
 
 function Navbar() {
-  const navRef = useRef()
+  const navRef = useRef();
 
   const showNavbar = () => {
-    navRef.current.classList.toggle('responsive_nav')
-  }
+    navRef.current.classList.toggle('responsive_nav');
+  };
 
   return (
     <header className="text-white bg-orange-400 flex justify-between items-center px-8 py-2">
@@ -19,7 +19,7 @@ function Navbar() {
         className="bg-orange-400 flex gap-6 text-xl font-medium"
         ref={navRef}
       >
-        <a className="hover:underline" href="/#hero">
+        <a className="hover:underline" href="/#h" onClick={showNavbar}>
           Home
         </a>
         <a className="hover:underline" href="/#about" onClick={showNavbar}>
@@ -39,7 +39,7 @@ function Navbar() {
         <FaBars />
       </button>
     </header>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

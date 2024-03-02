@@ -1,15 +1,19 @@
-import { useState } from 'react'
-import Button from '../utilities/Button'
+import { useState } from 'react';
+import Button from '../utilities/Button';
 
-function ContactForm() {
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-  const [message, setMessage] = useState('')
+function Contact() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    console.log('Name:', name, 'Email:', email, 'Message:', message)
-  }
+    e.preventDefault();
+    console.log('Name:', name, 'Email:', email, 'Message:', message);
+
+    setName('');
+    setEmail('');
+    setMessage('');
+  };
 
   return (
     <>
@@ -30,16 +34,18 @@ function ContactForm() {
               name="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
+              required
             />
           </div>
           <div className="flex flex-col items-center mb-4">
             <label className="mr-2 flex flex-col font-bold">Email</label>
             <input
               className="rounded-md px-2 text-black"
-              type="text"
+              type="email"
               name="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              required
             />
           </div>
           <div className="flex flex-col items-center mb-4">
@@ -48,15 +54,16 @@ function ContactForm() {
               className="rounded-md p-2 text-black"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              cols="40"
+              cols="32"
               rows="4"
+              required
             ></textarea>
           </div>
           <Button>Submit</Button>
         </form>
       </div>
     </>
-  )
+  );
 }
 
-export default ContactForm
+export default Contact;

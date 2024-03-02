@@ -1,5 +1,5 @@
-import { FaGithub } from 'react-icons/fa'
-import { FaLinkedin } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -17,10 +17,12 @@ function Footer() {
             <FaLinkedin className="text-orange-500 text-2xl" />
           </a>
         </div>
-        ©Copyright 2023 Phil Werpub. All rights reserved.
+        <p className="text-md">
+          ©Copyright 2023 Phil Werpub. All rights reserved.
+        </p>
       </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
