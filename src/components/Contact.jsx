@@ -8,11 +8,13 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Name:', name, 'Email:', email, 'Message:', message);
-
     setName('');
     setEmail('');
     setMessage('');
+
+    alert(
+      'Message is currently not being sent. You can find my Links in the footer to contact me. Thank you!'
+    );
   };
 
   return (
@@ -27,32 +29,41 @@ function Contact() {
           onSubmit={handleSubmit}
         >
           <div className="flex flex-col items-center mb-4 ">
-            <label className="mr-2 flex flex-col font-bold">Name</label>
+            <label htmlFor="name" className="mr-2 flex flex-col font-bold">
+              Name
+            </label>
             <input
               className="rounded-md px-2 text-black"
               type="text"
               name="name"
+              id="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
             />
           </div>
           <div className="flex flex-col items-center mb-4">
-            <label className="mr-2 flex flex-col font-bold">Email</label>
+            <label htmlFor="email" className="mr-2 flex flex-col font-bold">
+              Email
+            </label>
             <input
               className="rounded-md px-2 text-black"
               type="email"
               name="email"
+              id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
             />
           </div>
           <div className="flex flex-col items-center mb-4">
-            <label className="flex font-bold">Message</label>
+            <label htmlFor="message" className="flex font-bold">
+              Message
+            </label>
             <textarea
               className="rounded-md p-2 text-black"
               value={message}
+              name="message"
               onChange={(e) => setMessage(e.target.value)}
               cols="32"
               rows="4"
