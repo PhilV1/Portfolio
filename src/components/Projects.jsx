@@ -1,5 +1,4 @@
-import ProjectCard from '../utilities/ProjectCard';
-import ToDoImg from '../images/TaskPlanner.JPG';
+import ProjectCard from '../utilities/ProjectCard'
 
 function Projects() {
   return (
@@ -11,13 +10,13 @@ function Projects() {
       <div className="flex justify-center flex-wrap gap-2 text-white">
         <ProjectCard
           link="https://task-planner-five.vercel.app/"
-          image={ToDoImg}
+          image="/images/TaskPlanner.JPG"
         >
           Simple ToDo List in ReactJS.
         </ProjectCard>
       </div>
     </div>
-  );
+  )
 }
 
-export default Projects;
+export default Projects

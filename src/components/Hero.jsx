@@ -1,4 +1,4 @@
-import heroImg from '../images/Hero_Computer_Vector.svg'
+import heroImg from '/images/Hero_Computer_Vector.svg'
 
 function Hero() {
   return (

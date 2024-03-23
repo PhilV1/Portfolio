@@ -1,5 +1,7 @@
-import { FaGithub } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
+
+const currentYear = new Date().getFullYear()
 
 function Footer() {
   return (
@@ -18,11 +20,11 @@ function Footer() {
           </a>
         </div>
         <p className="text-md">
-          ©Copyright 2023 Phil Werpub. All rights reserved.
+          ©Copyright {currentYear} Phil Werpub. All rights reserved.
         </p>
       </div>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
