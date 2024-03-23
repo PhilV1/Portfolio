@@ -12,7 +12,7 @@ function Projects() {
           link="https://task-planner-five.vercel.app/"
           image="/images/TaskPlanner.JPG"
         >
-          Simple ToDo List in ReactJS.
+          ToDo List in React.
         </ProjectCard>
       </div>
     </div>
