@@ -6,3 +6,7 @@ html {
   scroll-behavior: smooth;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+div {
+  scroll-margin: 2rem;
+}
