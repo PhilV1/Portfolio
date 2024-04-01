@@ -23,7 +23,7 @@ function Projects() {
         </ProjectCard>
         <ProjectCard
           link="https://dice-game-one-silk.vercel.app/"
-          image="/images/Counter.JPG"
+          image="/images/DiceGame.JPG"
         >
           DiceGame with vanilla HTML,CSS and Javascript .
         </ProjectCard>
