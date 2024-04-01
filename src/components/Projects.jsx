@@ -12,7 +12,8 @@ function Projects() {
           link="https://task-planner-five.vercel.app/"
           image="/images/TaskPlanner.JPG"
         >
-          ToDo List in React.
+          ToDo List with random Taskgenerator. Created with React and
+          TailwindCSS.
         </ProjectCard>
       </div>
     </div>
