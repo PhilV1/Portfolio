@@ -10,7 +10,7 @@ function Navbar() {
   }
 
   return (
-    <div className="px-8 py-2 bg-orange-400 text-white sticky top-0 right-0 w-full z-10 border-b-2 ">
+    <div className="px-8 py-2 bg-orange-400 text-white sticky top-0 right-0 w-full z-10  shadow-white shadow-md ">
       <header className=" flex justify-between items-center max-w-[1200px] mx-auto">
         <a href="/#projects">
           {' '}
