@@ -15,17 +15,19 @@ function Projects() {
           ToDo List with random Taskgenerator. Created with React and
           TailwindCSS.
         </ProjectCard>
-        <ProjectCard
-          link="https://counter-five-omega.vercel.app/"
-          image="/images/Counter.JPG"
-        >
-          Counter with vanilla Javascript.
-        </ProjectCard>
+        d
         <ProjectCard
           link="https://dice-game-one-silk.vercel.app/"
           image="/images/DiceGame.JPG"
         >
           DiceGame with vanilla HTML,CSS and Javascript .
+        </ProjectCard>
+        <ProjectCard
+          link="https://portfolio-website-omega-sepia-99.vercel.app/"
+          image="/images/JsPortfolio.JPG"
+        >
+          Portfolio with vanilla HTML, CSS and a bit JS. Includes some of my
+          older Projects
         </ProjectCard>
       </div>
     </div>
