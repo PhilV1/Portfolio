@@ -2,7 +2,7 @@ export const projectInfo = [
   {
     link: 'https://cloudinary-client.vercel.app/',
     image: '/images/FullstackCloudinary.JPG',
-    github: 'https://cloudinary-client.vercel.app/',
+    github: 'https://github.com/PhilV1/cloudinary-client',
     description: 'Fullstack App with Cloudinary and DaisyUI. ',
   },
   {
