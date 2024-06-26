@@ -1,5 +1,10 @@
 export const projectInfo = [
   {
+    link: 'https://github.com/PhilV1/cloudinary-client',
+    image: '/images/FullstackCloudinary.JPG',
+    description: 'Fullstack App with Cloudinary and DaisyUI. ',
+  },
+  {
     link: 'https://task-planner-five.vercel.app/',
     image: '/images/TaskPlanner.JPG',
     description:
