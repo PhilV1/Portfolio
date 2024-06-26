@@ -5,20 +5,20 @@ export const projectInfo = [
     description: 'Fullstack App with Cloudinary and DaisyUI. ',
   },
   {
+    link: 'https://github.com/PhilV1/cloudinary-client',
+    image: '/images/FullstackUserlogin.JPG',
+    description: 'Fullstack App with Login and Hashing. ',
+  },
+  {
     link: 'https://task-planner-five.vercel.app/',
     image: '/images/TaskPlanner.JPG',
     description:
       'ToDo List with random Taskgenerator. Created with React and TailwindCSS.',
   },
   {
-    link: 'https://dice-game-one-silk.vercel.app/',
-    image: '/images/DiceGame.JPG',
-    description: 'DiceGame with vanilla HTML,CSS and Javascript.',
-  },
-  {
     link: 'https://portfolio-website-omega-sepia-99.vercel.app/',
     image: '/images/JsPortfolio.JPG',
     description:
-      'Portfolio with vanilla HTML, CSS and a bit JS. Includes some of my older Projects',
+      'Portfolio with vanilla HTML, CSS and JS. Includes some of my older Projects',
   },
 ]
