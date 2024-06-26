@@ -9,8 +9,8 @@ function Projects() {
     >
       <h2 className="text-3xl font-bold pb-4">Recent Projects</h2>
       <div className="flex justify-center flex-wrap gap-6 text-white">
-        {projectInfo.map(({ link, image, description }) => (
-          <ProjectCard link={link} image={image}>
+        {projectInfo.map(({ link, image, description, github }) => (
+          <ProjectCard link={link} image={image} github={github}>
             {description}
           </ProjectCard>
         ))}
